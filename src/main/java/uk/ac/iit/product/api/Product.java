@@ -1,5 +1,8 @@
 package uk.ac.iit.product.api;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Product {
     private Long id;
     private String name;
@@ -21,5 +24,17 @@ public class Product {
 
     public String getName() {
         return name;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
     }
 }
